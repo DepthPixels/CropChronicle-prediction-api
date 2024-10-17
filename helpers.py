@@ -127,6 +127,7 @@ city_list = [
 ]
 
 
+
 zone_dict = {'Western Himalayan': ['Srinagar', 'Shimla', 'Dehradun', 'Leh'],
              'Western Plain': ['Jaipur', 'Jodhpur', 'Bikaner', 'Ajmer'],
              'Lower Gangetic Plains': ['Kolkata', 'Darjeeling', 'Burdwan', 'Malda'],
