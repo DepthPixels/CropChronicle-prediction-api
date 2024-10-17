@@ -17,6 +17,7 @@ feature_keys = [
   "sunshine_duration"
 ]
 
+
 zone_list = ['Western Himalayan',
              'Western Plain',
              'Lower Gangetic Plains',
