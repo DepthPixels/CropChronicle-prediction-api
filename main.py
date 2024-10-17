@@ -12,6 +12,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def root():
+  return {"message": "hey"}
+  
+
 @app.get("/predictions/")
 def predictions(latitude: float, longitude: float, crop_type: str):
   irrigation = irrigation_data(latitude, longitude)
